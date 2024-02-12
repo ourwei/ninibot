@@ -59,7 +59,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}],
-    status: 'twitch stream',
+    status: 'stream',
   });
 
   
